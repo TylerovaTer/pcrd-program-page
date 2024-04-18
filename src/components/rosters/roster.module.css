@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+
+    padding: 60px 30px;
+}
+
+.wrapper h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative ;
+
+    margin: 1rem;
+}
+
+.picture img {
+    width: 190px;
+    height: 250px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    padding:  20px 1rem 10px 1rem;
+    font-size: var(--body-font-size-medium);
+
+    background: rgb(205,0,191);
+    background: linear-gradient(0deg, rgba(205,0,191,1) 56%, rgba(255,255,255,0) 100%);
+    color: white;
+
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,79 @@
+.wrapper {
+    background-color: black;
+    color: white;
+
+    padding: 60px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.event {
+    margin: 0 auto;
+    text-align: center;
+
+    font-size: 24px;
+    color: var(--color-pink);
+}
+
+.event:hover {
+    color: var(--color-blue);
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+
+    gap: 45px;
+}
+
+.item h2 {
+    font-size: 36px;
+}
+
+.item{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-size: 20px;
+}
+
+/*Rows*/
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.row p:first-child {
+    width: 115px;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--color-pink);
+}
+
+.teamRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.teamRow a {
+    color: white;
+    font-size: 18px;
+}
+
+.teamRow a:hover {
+    color: var(--color-blue);
+}
+
+.teamRow p:nth-child(2){
+    font-size: 16px;
+}

@@ -1,4 +1,5 @@
 import { Menu } from "@/components/menu";
+import { Officials } from "@/components/officials";
 import { Poster } from "@/components/poster";
 import { Rosters } from "@/components/rosters";
 import { Schedule } from "@/components/schedule";
@@ -12,6 +13,7 @@ export default function Home() {
       <Poster />
       <Menu />
       <Schedule data={information}/>
+      <Officials />
       <Rosters dataHome={rosterHomeTeam} dataAway={rosterAwayTeam}/>
     </div>
   );

@@ -7,7 +7,7 @@ export const Menu = () => {
         <a href="#schedule" className={styles.link}>
           Schedule
         </a>
-        <a href="#" className={styles.link}>
+        <a href="#officials" className={styles.link}>
           Officials
         </a>
         <a href="#rosters" className={styles.link}>

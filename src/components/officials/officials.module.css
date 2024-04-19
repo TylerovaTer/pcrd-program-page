@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+
+  padding: 40px 60px;
+  position: relative;
+
+  scroll-margin: 50px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  color: rgb(119, 145, 90);
+}
+.sheet {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  max-height: 280px;
+  width: 300px;
+}
+
+.picture {
+  position: absolute;
+  bottom: -130px;
+  right: -40px;
+  width: 620px;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+}
+
+.thanks {
+  font-size: 24px;
+  color: rgb(245, 115, 137);
+}

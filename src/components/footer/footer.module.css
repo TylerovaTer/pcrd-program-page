@@ -1,32 +1,16 @@
-.header {
-    height: 250px;
+.wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
-    background-color: black;
-}
+    padding: 20px 40px;
+    background-color: var(--color-blue);
 
-.image {
-    height: 90%;
-    padding: 1px;
-    border-radius: 50%;
-    background-color: white;
-}
-
-.image img {
-    height: 100%;
-}
-
-.title {
     color: white;
-    width: 25%;
 }
 
 .links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 10px;
     width: 20%;
 

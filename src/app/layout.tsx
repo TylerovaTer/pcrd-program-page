@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { bodyFont } from "@/components/typography";
 import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Prague City Roller Derby",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <main className={bodyFont.className}>
           <Header />
           {children}
+          <Footer />
         </main>
       </body>
     </html>

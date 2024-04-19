@@ -13,9 +13,6 @@ export const Menu = () => {
         <a href="#rosters" className={styles.link}>
           Rosters
         </a>
-        <a href="#" className={styles.link}>
-          Rules
-        </a>
       </div>
     </div>
   );

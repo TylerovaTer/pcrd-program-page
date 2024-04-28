@@ -29,14 +29,10 @@
 }
 
 .name {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
 
     padding:  20px 1rem 10px 1rem;
-    font-size: var(--body-font-size-medium);
+    font-size: 16px;
 
     background: rgb(205,0,191);
     background: linear-gradient(0deg, rgba(205,0,191,1) 56%, rgba(255,255,255,0) 100%);

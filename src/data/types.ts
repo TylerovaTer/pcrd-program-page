@@ -1,10 +1,15 @@
 export type Player = {
     name: string;
-    number: number;
+    number: string;
     image?: string;
 }
 
-export type Roster = Player[];
+export type Roster = {
+    data: Player[];
+    name: string;
+}
+
+export type Teams = Roster[];
 
 export type BasicInfo = {
     firstGame: Game;

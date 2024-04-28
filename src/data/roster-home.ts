@@ -1,40 +1,87 @@
 import { Roster } from "./types";
 
- export const rosterHomeTeam : Roster = [
+ export const rosterHomeTeam : Roster = {
+    name: "Prague City Roller Derby",
+    data: [
     {
-        name: "T",
-        number: 1024,
-        image: "/roster-home/T.jpg"
+        name: "Your Mom",
+        number: "04",
+    },
+    {
+        name: "Mariel",
+        number: "05",
+    },
+    {
+        name: "Demogorgon",
+        number: "07",
+    },
+    {
+        name: "Assault & Pepper",
+        number: "10",
     },
     {
         name: "T",
-        number: 1024,
-        image: "/roster-home/T.jpg"
+        number: "1024",
+        image: "/roster-home/T.jpg",
     },
     {
-        name: "T",
-        number: 1024,
-        image: "/roster-home/T.jpg"
+        name: "L)))",
+        number: "13",
     },
     {
-        name: "T",
-        number: 1024,
-        image: "/roster-home/T.jpg"
+        name: "Jully Roger",
+        number: "161",
     },
     {
-        name: "Dread Vader",
-        number: 5643,
+        name: "TNTina",
+        number: "17",
     },
     {
-        name: "Dread Vader",
-        number: 5643,
+        name: "Semtex",
+        number: "1911",
     },
     {
-        name: "Dread Vader",
-        number: 5643,
+        name: "Mörkö",
+        number: "1982",
     },
     {
-        name: "Dread Vader",
-        number: 5643,
+        name: "Baby Rose",
+        number: "2106",
     },
-];
+    {
+        name: "Guerilla Jay",
+        number: "25",
+    },
+    {
+        name: "Doris the Explorer",
+        number: "318",
+    },
+    {
+        name: "Fox`n`Roll",
+        number: "37",
+    },
+    {
+        name: "Psycho Killer",
+        number: "59",
+    },
+    {
+        name: "Womps",
+        number: "803",
+    },
+    {
+        name: "Atomic Mom",
+        number: "81",
+    },
+    {
+        name: "Shäri Bomb",
+        number: "9",
+    },
+    {
+        name: "Grinch",
+        number: "91",
+    },
+    {
+        name: "EMANCIPATED",
+        number: "95",
+    },
+]};

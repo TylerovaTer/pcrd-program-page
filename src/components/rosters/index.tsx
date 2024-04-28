@@ -1,17 +1,17 @@
-import { Player, Roster } from '@/data/types';
+import { Player, Roster, Teams } from '@/data/types';
 import styles from './roster.module.css';
 
 type PropTypes = {
     dataHome: Roster
-    dataAway: Roster
+    dataAway: Teams
 }
 
 export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
     return (
         <div id='rosters'>
             <div className={styles.wrapper}>
-                <h2>Prague City Roller Derby</h2>
-                {dataHome.map((player, index) => (
+                <h2>{dataHome.name}</h2>
+                {dataHome.data.map((player, index) => (
                     <Card
                         key={"home" + index}
                         name={player.name}
@@ -20,9 +20,11 @@ export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
                 ))
                 }
             </div>
-            <div className={styles.wrapper}>
-                <h2>Copenhagen Roller Derby B</h2>
-                {dataAway.map((player, index) => (
+            
+            {dataAway.map((team, index) => (
+            <div className={styles.wrapper} key={team.name + index}>
+                <h2>{team.name}</h2>
+                {team.data.map((player, index) => (
                     <Card
                         key={"away" + index}
                         name={player.name}
@@ -30,18 +32,7 @@ export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
                         image={player.image} />
                 ))
                 }
-            </div>
-            <div className={styles.wrapper}>
-                <h2>Rolling RatPack Regensburg</h2>
-                {dataAway.map((player, index) => (
-                    <Card
-                        key={"away" + index}
-                        name={player.name}
-                        number={player.number}
-                        image={player.image} />
-                ))
-                }
-            </div>
+            </div>))}
         </div>
     );
 }

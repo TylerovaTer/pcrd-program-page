@@ -33,7 +33,6 @@
 }
 
 .afterparty{
-    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -46,7 +45,6 @@
 }
 
 .item{
-    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -94,10 +92,15 @@
     margin: auto 10px;
 }
 
-@media(max-width: 490px){
+
+@media (max-width:550px) {
     .wrapper {
-        padding: 30px 20px;
+        padding: 40px 20px;
     }
+}
+
+@media(max-width: 490px){
+    
     .row {
         justify-content: space-between;
     }

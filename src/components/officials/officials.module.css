@@ -21,7 +21,8 @@
   gap: 4px;
   column-gap: 25px;
 
-  max-height: 280px;
+  max-height: 300px;
+  min-height: 300px;
   width: fit-content;
 }
 
@@ -66,7 +67,7 @@
 @media (max-width: 550px) {
   .picture {
     width: 150px;
-    top: -90px;
+    top: -110px;
     left: 180px;
   }
   .wrapper {

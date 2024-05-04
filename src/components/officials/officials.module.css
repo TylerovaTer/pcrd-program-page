@@ -40,4 +40,39 @@
 .thanks {
   font-size: 24px;
   color: rgb(245, 115, 137);
+  width: fit-content;
+}
+
+@media(max-width: 940px){
+  .thanks {
+    font-size: 20px;
+    max-width: 350px;
+  }
+}
+@media (max-width: 900px) {
+  .picture {
+    width: 450px;
+    bottom: -90px;
+  }
+}
+
+@media (max-width: 665px) {
+  .picture {
+    width: 300px;
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 550px) {
+  .picture {
+    width: 150px;
+    top: -90px;
+    left: 180px;
+  }
+  .wrapper {
+    padding: 20px 20px;
+  }
+  .thanks {
+    max-width: 100%;
+  }
 }

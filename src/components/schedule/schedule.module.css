@@ -28,6 +28,19 @@
     gap: 45px;
 }
 
+.afterparty h2 {
+    font-size: 36px;
+}
+
+.afterparty{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-size: 20px;
+}
+
 .item h2 {
     font-size: 36px;
 }
@@ -48,12 +61,14 @@
     flex-wrap: wrap;
     align-items: flex-end;
     gap: 8px;
+    height: auto;
 }
 
 .row p:first-child {
-    width: 115px;
+    width: auto;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 30px;
+    vertical-align: middle;
     color: var(--color-pink);
 }
 
@@ -76,4 +91,23 @@
 
 .teamRow p:nth-child(2){
     font-size: 16px;
+    margin: auto 10px;
+}
+
+@media(max-width: 490px){
+    .wrapper {
+        padding: 30px 20px;
+    }
+    .row {
+        justify-content: space-between;
+    }
+    .teamRow a {
+        font-size: 16px;
+    }
+    .afterparty>div {
+        justify-content: flex-start !important;
+    }
+    .event {
+        font-size: 18px;
+    }
 }

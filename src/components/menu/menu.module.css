@@ -1,7 +1,6 @@
 .wrapper {
     padding: 60px 60px 20px 60px;
     background-color: var(--color-blue);
-    border-bottom: 1px solid #e9ecef;
 }
 
 .menu {
@@ -24,4 +23,18 @@
 
 .link:hover {
     color: var(--color-pink);
+}
+
+@media (max-width: 490px) {
+    .wrapper {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .link {
+        font-size: 1.2rem;
+    }
 }

@@ -32,7 +32,7 @@ export const Schedule = ({data}: PropTypes) => {
             href2={data.thirdGame.href2}/>
             </div>
 
-            <div className={styles.item}>
+            <div className={styles.afterparty}>
             <h2>Afterparty</h2>
             <Row title='When:' info={data.afterparty.when}/>
             <Row title='Where:' info={data.afterparty.where}/>

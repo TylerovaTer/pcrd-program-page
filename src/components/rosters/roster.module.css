@@ -41,3 +41,16 @@
     position: absolute;
     bottom: 0;
 }
+
+@media (max-width:503px) {
+    .wrapper {
+        padding: 30px 10px;
+    }
+    .picture img {
+        width: 120px;
+        height: 150px;
+    }
+    .name {
+        font-size: 14px;
+    }
+}

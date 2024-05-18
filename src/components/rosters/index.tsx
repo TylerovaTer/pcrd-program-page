@@ -16,7 +16,8 @@ export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
                         key={"home" + index}
                         name={player.name}
                         number={player.number}
-                        image={player.image} />
+                        image={player.image}
+                        position={player.position} />
                 ))
                 }
             </div>
@@ -29,7 +30,8 @@ export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
                         key={"away" + index}
                         name={player.name}
                         number={player.number}
-                        image={player.image} />
+                        image={player.image}
+                        position={player.position} />
                 ))
                 }
             </div>))}
@@ -38,7 +40,7 @@ export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
 }
 
 
-export const Card = ({ name, number, image }: Player) => {
+export const Card = ({ name, number, image, position }: Player) => {
     return (
         <div className={styles.card}>
             <div className={styles.picture}>
@@ -46,8 +48,9 @@ export const Card = ({ name, number, image }: Player) => {
             </div>
             <div className={styles.name}>
                 <h4>{name}</h4>
-                <h5>#{number}</h5>
+                {number && <h5>{`#${number}`}</h5>}
             </div>
+            {position == "bench" && <div className={styles.bench}>Bench crew</div>}
         </div>
     );
 }

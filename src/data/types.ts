@@ -1,7 +1,8 @@
 export type Player = {
     name: string;
-    number: string;
+    number?: number;
     image?: string;
+    position?: "skater" | "bench"
 }
 
 export type Roster = {

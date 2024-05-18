@@ -16,7 +16,7 @@ import { Roster } from "./types";
     {
         name: "T",
         number: 1024,
-        image: "/roster-home/t.jpg",
+        image: "/roster-home/T.jpg",
     },
     {
         name: "L)))",

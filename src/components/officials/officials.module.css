@@ -76,4 +76,10 @@
   .thanks {
     max-width: 100%;
   }
+
+  .sheet {
+    max-height: 450px;
+    min-height: 300px;
+    width: 100%;
+  }
 }

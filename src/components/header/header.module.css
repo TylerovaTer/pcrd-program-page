@@ -15,6 +15,10 @@
     background-color: white;
 }
 
+.image:hover {
+    cursor: pointer;
+}
+
 .image img {
     height: 100%;
 }

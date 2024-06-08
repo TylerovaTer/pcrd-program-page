@@ -33,3 +33,11 @@ type Afterparty = {
     where: string;
     address: string;
 }
+
+export type MenuItem = {
+    href: string;
+    title: string;
+    isActive: boolean;
+}
+
+export type Menu = MenuItem[]

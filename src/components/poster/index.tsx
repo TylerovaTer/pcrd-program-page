@@ -1,9 +1,15 @@
 import styles from "./poster.module.css";
-export const Poster = () => {
+
+type PropTypes = {
+  src: string;
+  alt: string;
+};
+
+export const Poster = ({src, alt}: PropTypes) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.poster}>
-        <img src="/tripleheader.jpg" alt="" />
+        <img src={src} alt={alt} />
       </div>
       <div className={styles.separator} />
     </div>

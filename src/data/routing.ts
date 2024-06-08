@@ -6,5 +6,5 @@ export const appRouter = {
     games: '/games',
     programme: '/games/programme',
 
-    join: '/join',
+    join: '/join-pcrd',
     };

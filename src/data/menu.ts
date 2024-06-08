@@ -9,7 +9,7 @@ export const mainMenu = [
     {
         title: "Join PCRD",
         href: appRouter.join,
-        isActive: false
+        isActive: true
     },
     {
         title: "About team",

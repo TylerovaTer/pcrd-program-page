@@ -9,7 +9,7 @@ export default function GamesInfo() {
   return (
     <div>
         <Poster
-        src="/mainpage_poster.jpg"
+        src="/hotovo.jpg"
         alt="uvodní obrázek zápasu"
       />
         <MenuComponent data={mainMenu} />

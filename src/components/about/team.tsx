@@ -3,7 +3,7 @@ import styles from "./about.module.css";
 export const AboutTeam = () => {
   return (
     <div id="about-team" className={styles.wrapper}>
-      <h1>That's Who we are!</h1>
+      <h1>That&apos;s Who we are!</h1>
       <div className={styles.about}>
         <div>
           <p>
@@ -30,7 +30,7 @@ export const AboutTeam = () => {
             As it is in every team, we went through a time when we had a B-team
             called Bad Wolves, but also a time when we were happy to be able to
             play at all. The big test was the time during the covid when we
-            couldn't train or play and derby around the world came to a
+            couldn&apos;t train or play and derby around the world came to a
             standstill.
           </p>
           <p>

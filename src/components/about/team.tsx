@@ -1,4 +1,6 @@
+import { appRouter } from "@/data/routing";
 import styles from "./about.module.css";
+import Link from "next/link";
 
 export const AboutTeam = () => {
   return (
@@ -41,7 +43,7 @@ export const AboutTeam = () => {
           <p>
             Around the team an inclusive community of people has formed who work
             for the benefit of Czech roller derby and try to make our sport
-            grow. We are very happy to recruit new members in all positions,
+            grow. We are very happy to <Link className={styles.link} href={appRouter.join}>recruit new members</Link> in all positions,
             from players to officials to volunteers who help us organize events
             and games.
           </p>

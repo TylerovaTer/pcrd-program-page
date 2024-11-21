@@ -9,7 +9,7 @@ type PropTypes = {
 export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
     return (
         <div id='rosters'>
-            <div className={styles.wrapper}>
+            <div className={styles.wrapper} data-christmas="grinch">
                 <h2>{dataHome.name}</h2>
                 {dataHome.data.map((player, index) => (
                     <Card
@@ -23,7 +23,7 @@ export const Rosters = ({ dataHome, dataAway }: PropTypes) => {
             </div>
             
             {dataAway.map((team, index) => (
-            <div className={styles.wrapper} key={team.name + index}>
+            <div className={styles.wrapper} key={team.name + index} data-christmas="santa">
                 <h2>{team.name}</h2>
                 {team.data.map((player, index) => (
                     <Card

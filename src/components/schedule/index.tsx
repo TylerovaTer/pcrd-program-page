@@ -15,21 +15,9 @@ export const Schedule = ({data}: PropTypes) => {
             <Row title='First game:' info={data.firstGame.time}/>
             <TeamRow 
             team1={data.firstGame.team1}
-            href1={data.firstGame.href1}
+            href1={data.firstGame.href1 ||""}
             team2={data.firstGame.team2}
-            href2={data.firstGame.href2} />
-            <Row title='Second game:' info={data.secondGame.time}/>
-            <TeamRow 
-            team1={data.secondGame.team1}
-            href1={data.secondGame.href1}
-            team2={data.secondGame.team2}
-            href2={data.secondGame.href2} />
-            <Row title='Third game:' info={data.thirdGame.time}/>
-            <TeamRow 
-            team1={data.thirdGame.team1}
-            href1={data.thirdGame.href1}
-            team2={data.thirdGame.team2}
-            href2={data.thirdGame.href2}/>
+            href2={data.firstGame.href2 || ""} />
             </div>
 
             <div className={styles.afterparty}>

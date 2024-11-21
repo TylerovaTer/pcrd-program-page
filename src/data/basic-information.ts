@@ -1,29 +1,13 @@
 export const information = {
     firstGame: {
-        time: "12:00",
-        team1: "Prague City Roller Derby",
-        href1: "https://www.facebook.com/PragueCityRD",
-        team2: "Copenhagen Roller Derby B",
-        href2: "https://www.facebook.com/copenhagenrollerderby"
-    },
-    secondGame: {
-        time:"14:20",
-        team1: "Copenhagen Roller Derby B",
-        href1: "https://www.facebook.com/copenhagenrollerderby",
-        team2: "Rolling Rat Pack Regensburg",
-        href2: "https://www.facebook.com/RollerderbyRegensburg"
-    },
-    thirdGame: {
-        time: "16:40",
-        team1: "Prague City Roller Derby",
-        href1: "https://www.facebook.com/PragueCityRD",
-        team2: "Rolling Rat Pack Regensburg",
-        href2: "https://www.facebook.com/RollerderbyRegensburg"
+        time: "13:00",
+        team1: "Team Santa",
+        team2: "Team Grinch",
     },
     afterparty: {
-        when: "20:00",
-        where: "Bar Večernice",
-        address: "Ovenecká 6, 170 00, Praha 7, Czech Republic"
+        when: "19:00",
+        where: "Bar Myslíš?",
+        address: " Skořepka 354/3, Praha 1, 110 00 Staré Město"
     },
-    eventLink: "https://www.facebook.com/events/1343312999679325/?ref=newsfeed"
+    eventLink: "https://www.facebook.com/events/relax-t%C5%99ebe%C5%A1%C3%ADn/santa-vs-grinch-vol8/1223655132014544/"
 }

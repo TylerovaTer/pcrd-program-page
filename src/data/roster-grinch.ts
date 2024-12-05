@@ -83,5 +83,10 @@ import { Roster } from "./types";
         image: "/roster-grinch/placeholder.jpg",
         position: "bench"
     },
+    {
+        name: "Psycho Killer",
+        image: "/roster-grinch/placeholder.jpg",
+        position: "bench"
+    }
 ]
  };

@@ -70,10 +70,12 @@ import { Roster } from "./types";
     },
     {
         name: "EnnoWAR",
-        image: "/roster-grinch/placeholder.jpg",
+        number: 1312,
+        image: "/roster-grinch/ennowar.jpeg",
     },
     {
         name: "Hoellelujah",
+        number: 8,
         image: "/roster-grinch/placeholder.jpg",
     },
     {

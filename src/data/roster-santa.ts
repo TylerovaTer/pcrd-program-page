@@ -16,7 +16,7 @@ import { Teams } from "./types";
     {
         name: "Santa Paulanna",
         number: 14,
-        image: "/roster-santa/placeholder.jpg",
+        image: "/roster-santa/santa-paulanna.jpg",
     },
     {
         name: "Charliezard",

@@ -7,7 +7,6 @@ export const officials = [
     "Franka Frattura",
     "Cheap & Easy",
     "Dread Vader",
-    "BeaTRICK KIDDO",
     "Demogorgon",
     "Persephone",
     "Konrad",

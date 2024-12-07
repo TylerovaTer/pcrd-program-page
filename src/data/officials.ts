@@ -4,7 +4,7 @@ export const officials = [
     "Kanga Lu",
     "L)))",
     "IDDQD",
-    "Franka Frattura",
+    "Semtex",
     "Cheap & Easy",
     "Dread Vader",
     "Demogorgon",

@@ -1,6 +1,6 @@
 export type Player = {
     name: string;
-    number?: number;
+    number?: string;
     image?: string;
     position?: "skater" | "bench"
 }

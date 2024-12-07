@@ -34,6 +34,11 @@ import { Roster } from "./types";
         image: "/roster-grinch/celery-cutlet.jpg",
     },
     {
+        name: "Kappamaki",
+        number: 189,
+        image: "/roster-grinch/placeholder.jpg",
+    },
+    {
         name: "Mörkö",
         number: 1982,
         image: "/roster-grinch/morko.jpg",
@@ -57,11 +62,6 @@ import { Roster } from "./types";
         name: "Copper Chaos",
         number: 9,
         image: "/roster-grinch/copper-chaos.jpg",
-    },
-    {
-        name: "Kappamaki",
-        number: 189,
-        image: "/roster-grinch/placeholder.jpg",
     },
     {
         name: "Peter Packer",

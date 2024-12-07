@@ -59,9 +59,9 @@ import { Roster } from "./types";
         image: "/roster-grinch/copper-chaos.jpg",
     },
     {
-        name: "Merry GRINCHmASS",
-        number: 94,
-        image: "/roster-grinch/merry-grinchmass.jpg",
+        name: "Kappamaki",
+        number: 189,
+        image: "/roster-grinch/placeholder.jpg",
     },
     {
         name: "Peter Packer",

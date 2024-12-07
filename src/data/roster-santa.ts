@@ -83,10 +83,5 @@ import { Teams } from "./types";
         image: "/roster-santa/placeholder.jpg",
         position: "bench"
     },
-    {
-        name: "Viky Mouse",
-        image: "/roster-santa/placeholder.jpg",
-        position: "bench"
-    }
 ]}
 ];
